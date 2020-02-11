@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="777dp"
+    >
+
+    </WebView>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:text="Unica"
+                android:layout_width="105dp"
+                android:layout_height="69dp"
+                android:id="@+id/btn1"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"/>
+        <Button
+                android:text="Schedule"
+                android:layout_width="105dp"
+                android:layout_height="69dp" android:id="@+id/btn2" android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp" android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" android:layout_marginRight="204dp"
+                android:layout_marginEnd="204dp" android:layout_marginLeft="107dp" android:layout_marginStart="107dp"
+                android:layout_alignLeft="@+id/btn1" android:layout_alignStart="@+id/btn1"/>
+        <Button
+                android:text="Moodle"
+                android:layout_width="105dp"
+                android:layout_height="69dp" android:id="@+id/btn3" android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp" android:layout_alignParentStart="true"
+                android:layout_marginLeft="208dp" android:layout_marginStart="208dp"
+                android:layout_alignLeft="@+id/btn2"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="105dp"
+            android:layout_height="69dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/btn3"
+            android:layout_toRightOf="@+id/btn3"
+            android:text="Opsi" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
